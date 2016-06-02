@@ -4,7 +4,7 @@
 
 The backbone of this repo is extracted from [youtube/vitess](https://github.com/youtube/vitess).
 
-Inside youtube/vitess there is a very nicely written sql parser. However as it's not a self-contained application, I created this one. 
+Inside youtube/vitess there is a very nicely written sql parser. However as it's not a self-contained application, I created this one.
 It applies the same LICENSE as youtube/vitess.
 
 ##What's More In this REPO
@@ -15,11 +15,11 @@ It applies the same LICENSE as youtube/vitess.
 ##Usage
 
     import (
-        "github.com/xwb1989/sqlparser"
+        "github.com/segmentio/sqlparser"
     )
 
 Then use
-    
+
     sqlparser.Parse(sql)
 
 See `parse_test.go` for more `Parse` usage.
